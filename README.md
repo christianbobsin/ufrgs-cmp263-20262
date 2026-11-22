@@ -10,8 +10,8 @@ Repositório público: https://github.com/christianbobsin/ufrgs-cmp263-20262.
 
 ```text
 article/
-  artigo-ptbr.pdf                 # Artigo em português
-  artigo.pdf                       # Artigo em inglês
+  article-pt-br.pdf                 # Artigo em português
+  article-en-us.pdf                       # Artigo em inglês
 pratica/
   executar.py                      # Auditoria, comparação, ajuste e avaliação de energia
   medicoes.py                      # Curvas por orçamento e simulação de busca
@@ -118,4 +118,4 @@ Esse comando carrega o modelo salvo e produz métricas e predições no teste re
 
 A origem, a atribuição ao dataset NATS-Bench-MCU v2.0, a licença declarada CC BY 4.0 e o dicionário das 23 colunas estão em [data/DATASHEET.md](data/DATASHEET.md). As conclusões se restringem às arquiteturas implantadas com sucesso no espaço e hardware estudados. Não foi definido um limiar de erro aceitável para declarar um orçamento suficiente. Não há teste final de latência, comprovação de transferência para outros dispositivos ou interpretação causal da importância por permutação.
 
-Artigos: [português](article/artigo-ptbr.pdf) e [inglês](article/artigo.pdf).
+Artigos: [português](article/article-pt-br.pdf) e [inglês](article/article-en-us.pdf).
