@@ -1,0 +1,72 @@
+{
+  "protocol": "medicoes-v1",
+  "data_sha256": "bfa3154b18d048b49462a59159b3e7c7f1d486803cc17e89b372f76724eac725",
+  "split_sha256": {
+    "configuracao.json": "4dd30a3dd8c5caddde7465b8c2a2c191aea2d51e9f03051605acd5dfeb2b0cc5",
+    "divisao_dados.csv": "feb1bdc136e8daebb246c3c68b4a5a964923fe3181a0373b022cbee6824ef545",
+    "folds_cv.csv": "da826fb576e71222e85843acdcf0df72e98773a346be215e81a0b0d1bc9e58d0"
+  },
+  "source_sha256": "dfc5c1ae4f25a4b193abb2f2805be10e8412e4a58697041a0aeceb002acc4a13",
+  "model_source_sha256": "d77fc9d0b9a611c09e0be14638c9c7f37842c63a5b77e371deed3c39efe85993",
+  "features": [
+    "arch_op_0_1",
+    "arch_op_0_2",
+    "arch_op_1_2",
+    "arch_op_0_3",
+    "arch_op_1_3",
+    "arch_op_2_3"
+  ],
+  "targets": {
+    "energy_mJ": {
+      "unit": "mJ",
+      "reporting_scale": 1.0
+    },
+    "latency_s": {
+      "unit": "ms",
+      "reporting_scale": 1000.0
+    }
+  },
+  "budgets": [
+    100,
+    300,
+    1000,
+    3000,
+    0
+  ],
+  "models": [
+    "baseline_mediana",
+    "ridge",
+    "knn",
+    "arvore",
+    "floresta",
+    "svr"
+  ],
+  "seed": 42,
+  "reference_config": {
+    "seed": 42,
+    "test_size": 0.2,
+    "n_splits": 5,
+    "n_repeats": 3,
+    "n_jobs": 2,
+    "division": "composicao"
+  },
+  "search": {
+    "initial": 20,
+    "budget": 200,
+    "batch": 10,
+    "seeds": 5,
+    "strategies": [
+      "aleatoria",
+      "guiada_floresta"
+    ],
+    "guide": "floresta",
+    "guide_tuning": false,
+    "exploration_per_batch": 1
+  },
+  "packages": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "joblib": "1.5.3"
+  }
+}

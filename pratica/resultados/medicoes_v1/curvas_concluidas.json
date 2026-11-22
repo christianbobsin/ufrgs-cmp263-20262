@@ -1,0 +1,6 @@
+{
+  "n_fits": 900,
+  "test_evaluated": false,
+  "error_threshold_defined": false,
+  "fold_variability_is_confidence_interval": false
+}

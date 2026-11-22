@@ -1,0 +1,16 @@
+{
+  "n_development": 11669,
+  "n_test": 2612,
+  "n_cv_folds": 15,
+  "groups_total": 187,
+  "groups_development": 149,
+  "groups_test": 38,
+  "group_overlap": 0,
+  "group_order": [
+    "none",
+    "skip_connect",
+    "nor_conv_1x1",
+    "nor_conv_3x3",
+    "avg_pool_3x3"
+  ]
+}

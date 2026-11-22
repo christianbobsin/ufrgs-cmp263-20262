@@ -1,0 +1,17 @@
+{
+  "modelo_selecionado": "svr",
+  "n_test": 2612,
+  "metricas": {
+    "selecionado": {
+      "mae_mJ": 1.090996069758574,
+      "rmse_mJ": 1.7827257256841489,
+      "r2": 0.9921140281615216
+    },
+    "baseline_mediana": {
+      "mae_mJ": 17.71185807810107,
+      "rmse_mJ": 20.563540486041692,
+      "r2": -0.04925715560545019
+    }
+  },
+  "data_sha256": "bfa3154b18d048b49462a59159b3e7c7f1d486803cc17e89b372f76724eac725"
+}

@@ -1,0 +1,5 @@
+alvo,unidade,estrategia,n_seeds,melhor_valor_medio,melhor_valor_desvio,regret_medio
+energy_mJ,mJ,aleatoria,5,5.9677,0.8563208364859518,2.1506
+energy_mJ,mJ,guiada_floresta,5,4.19662,0.8486325188207204,0.37951999999999997
+latency_s,ms,aleatoria,5,512.3254,73.08840378131129,185.14039999999994
+latency_s,ms,guiada_floresta,5,359.914,73.18426883559061,32.729

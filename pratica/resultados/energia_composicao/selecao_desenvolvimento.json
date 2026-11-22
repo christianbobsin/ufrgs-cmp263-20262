@@ -1,0 +1,39 @@
+{
+  "buscas": [
+    {
+      "modelo": "svr",
+      "mae_cv_mJ": 1.3488560188218388,
+      "parametros": {
+        "model__C": 100.0,
+        "model__epsilon": 0.1,
+        "model__gamma": "scale"
+      },
+      "tempo_busca_s": 6321.663983003
+    },
+    {
+      "modelo": "floresta",
+      "mae_cv_mJ": 2.25365834170337,
+      "parametros": {
+        "model__max_depth": 15,
+        "model__min_samples_leaf": 3
+      },
+      "tempo_busca_s": 195.8838267179999
+    }
+  ],
+  "modelo_selecionado": "svr",
+  "parametros": {
+    "model__C": 100.0,
+    "model__epsilon": 0.1,
+    "model__gamma": "scale"
+  },
+  "mae_cv_mJ": 1.3488560188218388,
+  "data_sha256": "bfa3154b18d048b49462a59159b3e7c7f1d486803cc17e89b372f76724eac725",
+  "config": {
+    "seed": 42,
+    "test_size": 0.2,
+    "n_splits": 5,
+    "n_repeats": 3,
+    "n_jobs": 2,
+    "division": "composicao"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "n_runs": 20,
+  "pool": "development_only",
+  "test_evaluated": false,
+  "accuracy_constraint": false,
+  "physical_measurements_performed": false
+}
